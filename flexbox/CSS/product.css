@@ -1,123 +1,145 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-html, body{
-    overflow-x: hidden;
-    height: 100%;
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
 }
-.container{
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
 }
 /* Nav bar starts here*/
 /*logo starts here*/
-.logo{
-    width: 20%;
-    height: 20vh;
-    background: url(/Image/roof\ paint.jpg) no-repeat;
-    background-size: cover;
-    border-radius: 10px;
+.logo {
+  width: 20%;
+  height: 20vh;
+  background: url(/Image/roof\ paint.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
 /* logo ends here*/
-.nav-container{
-    background-color: #051367;
-    color: white;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
+.nav-container {
+  background-color: #051367;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
-.nav-container a{
-    margin: 20px;
-    text-decoration: none;
-    color: white;   
+.nav-container a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
 }
-.nav-container a:hover{
-    color: #5B7DB1;
+.nav-container a:hover {
+  color: #5b7db1;
 }
-.nav-container h1{
-    font-size: 3rem;
+.nav-container h1 {
+  font-size: 3rem;
 }
-.nav-container h1:hover{
-    color:#5B7DB1;
+.nav-container h1:hover {
+  color: #5b7db1;
 }
-.nav-list{
-    font-size: 1.2rem;
-    padding: 20px 20px;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+.nav-list {
+  font-size: 1.2rem;
+  padding: 20px 20px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
-.nav-container h2{
-    width: 100%;
-    text-align: center;
-    font-size: 1.6rem;
+.nav-container h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
 }
 /* products starts here*/
-.product{
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
+.product {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
-.sub-head{
-    display: flex;
+.sub-head {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-between;
 }
-.sub-head p{
-    line-height: 1.5;
+
+.sub-head div {
+  display: flex;
+  flex-direction: column;
 }
-.product-images{
-    display: flex;
-    margin-top: 50px;
+.sub-head p {
+  margin-left: 20px;
+  line-height: 1.5;
 }
-.paint{
-    font-size: 1rem;
-    padding: 10px;
-    margin: 10px;
-    background-color: #051367;
-    color: white;
+.product-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
-.paint:hover{
-    transform: scale(1.01);
+
+.product-images div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.product2{
-    display: flex;
-    margin-top: 50px;
+.paint {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px;
+  background-color: #051367;
+  color: white;
+}
+.paint:hover {
+  transform: scale(1.01);
+}
+.product2 {
+  display: flex;
+  margin-top: 50px;
 }
 /*products ends here*/
 
 /*footer starts here*/
-footer{
-    background-color: #051367;
-    color: white;
+footer {
+  background-color: #051367;
+  color: white;
 }
-.footer-ad{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 30px;
+.footer-ad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
 }
-footer p{
-    text-align: center;
+footer p {
+  text-align: center;
 }
-.submit-btn{
-    padding: 5px 20px;
-    font-size: 12px;
-    border-radius: 5px;
+.submit-btn {
+  padding: 5px 20px;
+  font-size: 12px;
+  border-radius: 5px;
 }
-.submit-btn:hover{
-    background-color: #051367;
-    color: white;
+.submit-btn:hover {
+  background-color: #051367;
+  color: white;
 }
-.footer-ad input{
-    border-radius: 5px;
-    font-size: 12px;
-    padding: 5px 20px;
+.footer-ad input {
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 20px;
 }
-.footer-ad p{
-    font-size: 1.2rem;
+.footer-ad p {
+  font-size: 1.2rem;
 }
 /*footer ends here*/
