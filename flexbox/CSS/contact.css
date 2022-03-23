@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav bar starts here*/
+/*logo starts here*/
+.paint-logo{
+    background: url(/Image/roof\ paint.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 20vh;
+    width: 20%;
+}
+/*logo ends here*/
+.nav-container{
+    background-color: #051367;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-head{
+    font-size: 3rem;
+}
+.nav-head:hover{
+    color: #5B7DB1 ;
+}
+.nav-list{
+    display: flex;   
+}
+.nav-container li{
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 20px;
+}
+.nav-container a{
+    text-decoration: none;
+    color: white;
+}
+.nav-container a:hover{
+    color: #5B7DB1;
+}
+.nav-container h2{
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+}
+/* Nav bar ends here*/
+
+/*sub container starts here*/
+.sub-container{
+    height: 100vh;
+}
+.container{
+    background-color: red;
+    height: 200vh;
+}

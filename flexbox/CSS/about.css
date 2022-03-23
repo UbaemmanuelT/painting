@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav bar starts here*/
+/*logo starts here*/
+.paint-logo{
+    background: url(/Image/roof\ paint.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 20vh;
+    width: 20%;
+}
+/*logo ends here*/
+.nav-container{
+    background-color: #051367;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.nav-head{
+    font-size: 3rem;
+}
+.nav-head:hover{
+    color: #5B7DB1 ;
+}
+.nav-list{
+    display: flex;   
+ }
+.nav-container li{
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 20px;
+}
+.nav-container a{
+    color: white; 
+    text-decoration: none; 
+}
+.nav-container a:hover{
+    color: #5B7DB1;
+}
+.nav-container h2{
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+}
+/* Nav bar ends here*/
+
+/*sub container starts here*/
+.sub-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+    margin: 20px 20px;
+}
+.sub-container h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.images{
+    display: flex;
+}
+/*Body ends here*/
+
+/*Card container starts here*/
+.card-container{
+    background-color: #051367;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding: 60px;
+    text-align: center;
+    width: 100%;
+}
+.card-container .png:hover{
+    transform: scale(1.03);
+}
+.png{
+    background-color: white;
+    border-radius: 10px;
+    height: 50vh;
+    margin: 15px; 
+    width: 20%; 
+}
+.png img{
+    margin: 20px;
+}
+.png p{
+    line-height: 2;
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+}
+.card-image{
+    background: url(/Image/roof\ paint.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 20vh;
+    width: 20%;
+}
+/* Card container ends here*/
+
+/*footer starts here*/
+.card-ad{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}
+.card-ad input{
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 20px;
+}
+.card-ad p{
+    font-size: 1.2rem;
+}
+.submit-btn{
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 20px;
+}
+.submit-btn:hover{
+    background-color: #051367;
+    color: white;
+}
+.footer-word{
+    background-color: #051367;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+/*footer ends here*/
